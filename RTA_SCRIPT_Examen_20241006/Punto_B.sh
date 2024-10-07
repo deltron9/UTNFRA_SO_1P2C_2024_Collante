@@ -33,7 +33,7 @@ w
 EOF
 done
 echo
-echo '¡Increible, pero funcionó!'
+echo '¡Increible, funcionó!'
 
 echo
 #Fuerzo al kernel leer la tabla para no reiniciar la VM.
