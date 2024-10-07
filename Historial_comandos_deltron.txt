@@ -1,0 +1,85 @@
+}
+ssh-keygen -t ed25519
+ls
+.ssh
+cd .ssh
+ls
+cat id_ed25519.pub
+cd
+mkdir repogit
+cd repogit
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone git@github.com:deltron9/UTNFRA_SO_1P2C_2024_Collante.git
+cd UTNFRA_SO_1P2C_2024_Collante/
+ls
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+cd RTA_SCRIPT_Examen_20241006/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+cd ..
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+cd ..
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+ls
+UTNFRA_SO_1P2C_2024_Collante/
+cd UTNFRA_SO_1P2C_2024_Collante/
+ls
+rm-rf RTA_SCRIPT_Examen_20241007
+rm -rf RTA_SCRIPT_Examen_20241007
+ls
+cd RTA_ARCHIVOS_Examen_20241007/
+ls
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+ls
+./Punto_E
+./Punto_E.sh
+ls
+vim Punto_E.sh
+./Punto_E.sh
+vim Punto_F.sh
+./Punto_F.sh
+cd ..
+ls
+RTA_ARCHIVOS_Examen_20241007/
+cd RTA_ARCHIVOS_Examen_20241007/
+ls
+cat Filtro_Avanzado.txt 
+cd ..
+ls
+git add Punto_F.sh
+cd RTA_ARCHIVOS_Examen_20241007/
+ls
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+ls
+rm -rf Filtro_Basico.txt 
+git add Punto_F.sh
+git commit -m "feat: añadir script para generar datos de usuario en archivo Filtro_Avanzado.txt" 
+git config --global user.email "cristian_collante@hotmail.com"
+git config --global user.name "deltron9"
+git commit -m "feat: añadir script para generar datos de usuario en archivo Filtro_Avanzado.txt" 
+git push
+cd ..
+cd RTA_ARCHIVOS_Examen_20241007/
+ls
+cd ..
+git add RTA_ARCHIVOS_Examen_20241007/
+git commit -m "docs: añadir datos de usuario en archivos Filtro_Básico.txt y Filtro_Avanzado.txt a directorio RTA_ARCHIVOS_Examen_20241007" 
+git push
+cd
+cd repogit
+ls
+cd UTNFRA_SO_1P2C_2024_Collante/
+ls
+vim README.md 
+git add README.md 
+git commit -m "docs: añadir datos de alumno a archivo README.md" 
+git push
+history -a
+cd
+cp $HOME/.bash_history > Historial_comandos_deltron.txt
